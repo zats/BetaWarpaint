@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "890A4B3E171F031300AFE577"
+               BlueprintIdentifier = "5C232F211ADC968C0019690E"
                BuildableName = "BetaCamouflage.xcplugin"
                BlueprintName = "BetaCamouflage"
                ReferencedContainer = "container:BetaCamouflage.xcodeproj">
@@ -56,12 +56,13 @@
       allowLocationSimulation = "NO"
       viewDebuggingEnabled = "No">
       <PathRunnable
-         FilePath = "/Applications/Xcode.app">
+         runnableDebuggingMode = "0"
+         FilePath = "/Applications/Xcode-beta.app">
       </PathRunnable>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "890A4B3E171F031300AFE577"
+            BlueprintIdentifier = "5C232F211ADC968C0019690E"
             BuildableName = "BetaCamouflage.xcplugin"
             BlueprintName = "BetaCamouflage"
             ReferencedContainer = "container:BetaCamouflage.xcodeproj">

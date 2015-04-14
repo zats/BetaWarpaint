@@ -11,6 +11,9 @@
 		5C232F281ADC968C0019690E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C232F271ADC968C0019690E /* Foundation.framework */; };
 		5C232F2D1ADC968C0019690E /* BetaCamouflage.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 5C232F2C1ADC968C0019690E /* BetaCamouflage.xcscheme */; };
 		5C232F301ADC968C0019690E /* BetaCamouflage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C232F2F1ADC968C0019690E /* BetaCamouflage.m */; };
+		5CA933781ADC97DE003F79CF /* WMLSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA933771ADC97DE003F79CF /* WMLSwizzler.m */; };
+		5CB10ABF1ADC9E8100DE6F2B /* pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CB10ABD1ADC9E8100DE6F2B /* pattern.png */; };
+		5CB10AC01ADC9E8100DE6F2B /* pattern@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CB10ABE1ADC9E8100DE6F2B /* pattern@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,10 @@
 		5C232F2C1ADC968C0019690E /* BetaCamouflage.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = BetaCamouflage.xcscheme; path = BetaCamouflage.xcodeproj/xcshareddata/xcschemes/BetaCamouflage.xcscheme; sourceTree = SOURCE_ROOT; };
 		5C232F2E1ADC968C0019690E /* BetaCamouflage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BetaCamouflage.h; sourceTree = "<group>"; };
 		5C232F2F1ADC968C0019690E /* BetaCamouflage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BetaCamouflage.m; sourceTree = "<group>"; };
+		5CA933761ADC97DE003F79CF /* WMLSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMLSwizzler.h; sourceTree = "<group>"; };
+		5CA933771ADC97DE003F79CF /* WMLSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMLSwizzler.m; sourceTree = "<group>"; };
+		5CB10ABD1ADC9E8100DE6F2B /* pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pattern.png; sourceTree = "<group>"; };
+		5CB10ABE1ADC9E8100DE6F2B /* pattern@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pattern@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +72,12 @@
 		5C232F291ADC968C0019690E /* BetaCamouflage */ = {
 			isa = PBXGroup;
 			children = (
+				5CB10ABD1ADC9E8100DE6F2B /* pattern.png */,
+				5CB10ABE1ADC9E8100DE6F2B /* pattern@2x.png */,
 				5C232F2E1ADC968C0019690E /* BetaCamouflage.h */,
 				5C232F2F1ADC968C0019690E /* BetaCamouflage.m */,
+				5CA933761ADC97DE003F79CF /* WMLSwizzler.h */,
+				5CA933771ADC97DE003F79CF /* WMLSwizzler.m */,
 				5C232F2A1ADC968C0019690E /* Supporting Files */,
 			);
 			path = BetaCamouflage;
@@ -137,6 +148,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CB10ABF1ADC9E8100DE6F2B /* pattern.png in Resources */,
+				5CB10AC01ADC9E8100DE6F2B /* pattern@2x.png in Resources */,
 				5C232F2D1ADC968C0019690E /* BetaCamouflage.xcscheme in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CA933781ADC97DE003F79CF /* WMLSwizzler.m in Sources */,
 				5C232F301ADC968C0019690E /* BetaCamouflage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +287,7 @@
 				5C232F351ADC968C0019690E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
