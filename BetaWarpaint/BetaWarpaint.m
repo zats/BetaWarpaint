@@ -6,19 +6,19 @@
 //  Copyright (c) 2015 Sash Zats. All rights reserved.
 //
 
-#import "BetaCamouflage.h"
+#import "BetaWarpaint.h"
 #import "WMLSwizzler.h"
 #import <objc/runtime.h>
 
 
-static BetaCamouflage *sharedPlugin;
+static BetaWarpaint *sharedPlugin;
 
-@interface BetaCamouflage()
+@interface BetaWarpaint()
 @property (nonatomic, strong) NSImage *patternImage;
 @property (nonatomic, strong, readwrite) NSBundle *bundle;
 @end
 
-@implementation BetaCamouflage
+@implementation BetaWarpaint
 
 + (void)pluginDidLoad:(NSBundle *)plugin {
     NSURL *receiptURL =[[NSBundle mainBundle].bundleURL URLByAppendingPathComponent:@"Contents/_MASReceipt/receipt"];

@@ -1,4 +1,4 @@
-# Beta camouflage
+# BetaWarpaint
 
 Helps you to distinguish between Xcode-beta.app and Xcode.app while you're working in it, not in Finder:
 

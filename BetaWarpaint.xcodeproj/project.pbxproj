@@ -9,21 +9,20 @@
 /* Begin PBXBuildFile section */
 		5C232F261ADC968C0019690E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C232F251ADC968C0019690E /* AppKit.framework */; };
 		5C232F281ADC968C0019690E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C232F271ADC968C0019690E /* Foundation.framework */; };
-		5C232F2D1ADC968C0019690E /* BetaCamouflage.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 5C232F2C1ADC968C0019690E /* BetaCamouflage.xcscheme */; };
-		5C232F301ADC968C0019690E /* BetaCamouflage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C232F2F1ADC968C0019690E /* BetaCamouflage.m */; };
+		5C232F301ADC968C0019690E /* BetaWarpaint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C232F2F1ADC968C0019690E /* BetaWarpaint.m */; };
 		5CA933781ADC97DE003F79CF /* WMLSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA933771ADC97DE003F79CF /* WMLSwizzler.m */; };
 		5CB10ABF1ADC9E8100DE6F2B /* pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CB10ABD1ADC9E8100DE6F2B /* pattern.png */; };
 		5CB10AC01ADC9E8100DE6F2B /* pattern@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CB10ABE1ADC9E8100DE6F2B /* pattern@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5C232F221ADC968C0019690E /* BetaCamouflage.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetaCamouflage.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C232F221ADC968C0019690E /* BetaWarpaint.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetaWarpaint.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C232F251ADC968C0019690E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		5C232F271ADC968C0019690E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		5C232F2B1ADC968C0019690E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C232F2C1ADC968C0019690E /* BetaCamouflage.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = BetaCamouflage.xcscheme; path = BetaCamouflage.xcodeproj/xcshareddata/xcschemes/BetaCamouflage.xcscheme; sourceTree = SOURCE_ROOT; };
-		5C232F2E1ADC968C0019690E /* BetaCamouflage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BetaCamouflage.h; sourceTree = "<group>"; };
-		5C232F2F1ADC968C0019690E /* BetaCamouflage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BetaCamouflage.m; sourceTree = "<group>"; };
+		5C232F2C1ADC968C0019690E /* BetaWarpaint.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = BetaWarpaint.xcscheme; path = BetaWarpaint.xcodeproj/xcshareddata/xcschemes/BetaWarpaint.xcscheme; sourceTree = SOURCE_ROOT; };
+		5C232F2E1ADC968C0019690E /* BetaWarpaint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BetaWarpaint.h; sourceTree = "<group>"; };
+		5C232F2F1ADC968C0019690E /* BetaWarpaint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BetaWarpaint.m; sourceTree = "<group>"; };
 		5CA933761ADC97DE003F79CF /* WMLSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMLSwizzler.h; sourceTree = "<group>"; };
 		5CA933771ADC97DE003F79CF /* WMLSwizzler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMLSwizzler.m; sourceTree = "<group>"; };
 		5CB10ABD1ADC9E8100DE6F2B /* pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pattern.png; sourceTree = "<group>"; };
@@ -46,7 +45,7 @@
 		5C232F191ADC968C0019690E = {
 			isa = PBXGroup;
 			children = (
-				5C232F291ADC968C0019690E /* BetaCamouflage */,
+				5C232F291ADC968C0019690E /* BetaWarpaint */,
 				5C232F241ADC968C0019690E /* Frameworks */,
 				5C232F231ADC968C0019690E /* Products */,
 			);
@@ -55,7 +54,7 @@
 		5C232F231ADC968C0019690E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5C232F221ADC968C0019690E /* BetaCamouflage.xcplugin */,
+				5C232F221ADC968C0019690E /* BetaWarpaint.xcplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,25 +68,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5C232F291ADC968C0019690E /* BetaCamouflage */ = {
+		5C232F291ADC968C0019690E /* BetaWarpaint */ = {
 			isa = PBXGroup;
 			children = (
 				5CB10ABD1ADC9E8100DE6F2B /* pattern.png */,
 				5CB10ABE1ADC9E8100DE6F2B /* pattern@2x.png */,
-				5C232F2E1ADC968C0019690E /* BetaCamouflage.h */,
-				5C232F2F1ADC968C0019690E /* BetaCamouflage.m */,
+				5C232F2E1ADC968C0019690E /* BetaWarpaint.h */,
+				5C232F2F1ADC968C0019690E /* BetaWarpaint.m */,
 				5CA933761ADC97DE003F79CF /* WMLSwizzler.h */,
 				5CA933771ADC97DE003F79CF /* WMLSwizzler.m */,
 				5C232F2A1ADC968C0019690E /* Supporting Files */,
 			);
-			path = BetaCamouflage;
+			path = BetaWarpaint;
 			sourceTree = "<group>";
 		};
 		5C232F2A1ADC968C0019690E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				5C232F2B1ADC968C0019690E /* Info.plist */,
-				5C232F2C1ADC968C0019690E /* BetaCamouflage.xcscheme */,
+				5C232F2C1ADC968C0019690E /* BetaWarpaint.xcscheme */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -95,9 +94,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5C232F211ADC968C0019690E /* BetaCamouflage */ = {
+		5C232F211ADC968C0019690E /* BetaWarpaint */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C232F331ADC968C0019690E /* Build configuration list for PBXNativeTarget "BetaCamouflage" */;
+			buildConfigurationList = 5C232F331ADC968C0019690E /* Build configuration list for PBXNativeTarget "BetaWarpaint" */;
 			buildPhases = (
 				5C232F1E1ADC968C0019690E /* Sources */,
 				5C232F1F1ADC968C0019690E /* Resources */,
@@ -107,9 +106,9 @@
 			);
 			dependencies = (
 			);
-			name = BetaCamouflage;
-			productName = BetaCamouflage;
-			productReference = 5C232F221ADC968C0019690E /* BetaCamouflage.xcplugin */;
+			name = BetaWarpaint;
+			productName = BetaWarpaint;
+			productReference = 5C232F221ADC968C0019690E /* BetaWarpaint.xcplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -126,7 +125,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5C232F1D1ADC968C0019690E /* Build configuration list for PBXProject "BetaCamouflage" */;
+			buildConfigurationList = 5C232F1D1ADC968C0019690E /* Build configuration list for PBXProject "BetaWarpaint" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -138,7 +137,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5C232F211ADC968C0019690E /* BetaCamouflage */,
+				5C232F211ADC968C0019690E /* BetaWarpaint */,
 			);
 		};
 /* End PBXProject section */
@@ -150,7 +149,6 @@
 			files = (
 				5CB10ABF1ADC9E8100DE6F2B /* pattern.png in Resources */,
 				5CB10AC01ADC9E8100DE6F2B /* pattern@2x.png in Resources */,
-				5C232F2D1ADC968C0019690E /* BetaCamouflage.xcscheme in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CA933781ADC97DE003F79CF /* WMLSwizzler.m in Sources */,
-				5C232F301ADC968C0019690E /* BetaCamouflage.m in Sources */,
+				5C232F301ADC968C0019690E /* BetaWarpaint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +244,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = "$(HOME)";
-				INFOPLIST_FILE = BetaCamouflage/Info.plist;
+				INFOPLIST_FILE = BetaWarpaint/Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -260,7 +258,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = "$(HOME)";
-				INFOPLIST_FILE = BetaCamouflage/Info.plist;
+				INFOPLIST_FILE = BetaWarpaint/Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -271,7 +269,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5C232F1D1ADC968C0019690E /* Build configuration list for PBXProject "BetaCamouflage" */ = {
+		5C232F1D1ADC968C0019690E /* Build configuration list for PBXProject "BetaWarpaint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C232F311ADC968C0019690E /* Debug */,
@@ -280,7 +278,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C232F331ADC968C0019690E /* Build configuration list for PBXNativeTarget "BetaCamouflage" */ = {
+		5C232F331ADC968C0019690E /* Build configuration list for PBXNativeTarget "BetaWarpaint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C232F341ADC968C0019690E /* Debug */,

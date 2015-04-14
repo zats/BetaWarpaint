@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:BetaCamouflage.xcodeproj">
+      location = "self:BetaWarpaint.xcodeproj">
    </FileRef>
 </Workspace>

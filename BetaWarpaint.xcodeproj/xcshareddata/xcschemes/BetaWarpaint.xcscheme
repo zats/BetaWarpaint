@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5C232F211ADC968C0019690E"
-               BuildableName = "BetaCamouflage.xcplugin"
-               BlueprintName = "BetaCamouflage"
-               ReferencedContainer = "container:BetaCamouflage.xcodeproj">
+               BuildableName = "BetaWarpaint.xcplugin"
+               BlueprintName = "BetaWarpaint"
+               ReferencedContainer = "container:BetaWarpaint.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8966AFCA173EB7BF004150C0"
-               BuildableName = "BetaCamouflageTests.xctest"
-               BlueprintName = "BetaCamouflageTests"
-               ReferencedContainer = "container:BetaCamouflage.xcodeproj">
+               BuildableName = "BetaWarpaintTests.xctest"
+               BlueprintName = "BetaWarpaintTests"
+               ReferencedContainer = "container:BetaWarpaint.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -63,9 +63,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5C232F211ADC968C0019690E"
-            BuildableName = "BetaCamouflage.xcplugin"
-            BlueprintName = "BetaCamouflage"
-            ReferencedContainer = "container:BetaCamouflage.xcodeproj">
+            BuildableName = "BetaWarpaint.xcplugin"
+            BlueprintName = "BetaWarpaint"
+            ReferencedContainer = "container:BetaWarpaint.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
