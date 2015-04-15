@@ -1,6 +1,6 @@
 # BetaWarpaint
 
-Helps you to distinguish between Xcode-beta.app and Xcode.app while you're working in it, not in Finder:
+Because icon is not enough to tell the difference between Xcode-beta and Xcode
 
 ![](ScreenShot.png)
 
